@@ -1,0 +1,82 @@
+body.rtl {
+  /* .contact__item .icon-two {
+      right: 40px;
+  } */
+  /* .contact-area .contact__shape {
+    position: absolute;
+    bottom: -140px;
+    left: 0;
+    z-index: -1;
+  } */
+}
+body.rtl .contact__item {
+  position: absolute;
+  top: 50%;
+  right: -400px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  max-width: 400px;
+  width: 100%;
+  background-color: var(--theme-color2);
+  padding: 15px;
+  z-index: 1;
+}
+body.rtl .contact__wrp {
+  max-width: 810px;
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+body.rtl .blog-area .blog__content ul li strong::after {
+  position: absolute;
+  top: 8px;
+  right: -40px !important;
+  background-color: var(--theme-color3);
+  width: 32px;
+  height: 2px;
+  content: "";
+}
+body.rtl .feature__item {
+  padding: 20px 0;
+  cursor: pointer;
+  border-right: 0;
+}
+body.rtl .about-four__content {
+  margin-right: 100px;
+  max-width: 490px;
+  position: relative;
+}
+body.rtl .about-four__content h2 {
+  font-size: 80px;
+  line-height: 90px;
+  margin-right: -288px;
+}
+body.rtl .funfact-four__text {
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  z-index: -1;
+}
+body.rtl .funfact-four__left {
+  max-width: 375px;
+  margin-left: 30px;
+  float: left;
+}
+body.rtl .funfact-four__shape {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+body.rtl .plan__videoBtn {
+  position: absolute;
+  top: 50%;
+  right: 74%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+body.rtl .plan__content {
+  padding-right: 170px;
+}
