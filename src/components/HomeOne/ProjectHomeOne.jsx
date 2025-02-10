@@ -5,7 +5,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import 'swiper/css/pagination';
-import Projectimage1 from '../../assets/images/bg/sammed_shikhar_sketch51.png';
+import Projectimage1 from '../../assets/images/bg/Sammed_Shikhar_Sketch51.png';
 import smallLogo from '../../assets/images/logo/100.png';
 import Projectimage2 from '../../assets/images/bg/project-one-bg2.jpg';
 import Projectimage3 from '../../assets/images/bg/project-one-bg3.jpg';
