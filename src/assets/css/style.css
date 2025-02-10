@@ -49,6 +49,7 @@ CSS TABLE OF CONTENTS
   --white: #ffffff;
   --theme-color-light: #ffffff;
   --black: #000000;
+  --grey:#716d6d;
   --radius: 10px;
   --transition: all 0.4s ease-in-out;
   --shadow: 0px 4px 30px 0px #0000000d;
@@ -4647,7 +4648,7 @@ body.dark-mode {
   height: 0;
   z-index: -1;
   content: "";
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(103, 103, 103, 0.3);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   -webkit-transition: var(--transition);
@@ -4655,13 +4656,13 @@ body.dark-mode {
 }
 .project__content h6 {
   font-weight: 400;
-  color: var(--white);
+  color: var(--grey);
 }
 .project__content h4 {
   margin-top: 10px;
 }
 .project__content h4 a {
-  color: var(--white);
+  color: var(--grey);
 }
 .project__content h4 a:hover {
   color: var(--theme-color1);
