@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactShapeImage from '../../assets/images/shape/contact-shape.png';
-import ContactImage1 from '../../assets/images/contact/contact-image.jpg';
+import ContactImage1 from '../../assets/images/contact/View15.jpg';
 import ContactIconImage1 from '../../assets/images/icon/contact-icon1.png';
 import ContactIconImage2 from '../../assets/images/icon/contact-icon2.png';
 

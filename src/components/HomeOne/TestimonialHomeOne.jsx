@@ -98,13 +98,13 @@ function ProjectHomeOne({ className }) {
                                 <SwiperSlide>
                                     <div className="testimonial__content">
                                         <p>
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                                        classical Latin literature from 45 BC, making it over 2000 years old.
+                                        Grateful for your exceptional guidance in constructing our temple. Your visionary designs, Makrana marble expertise, and meticulous supervision ensured lasting quality at affordable rates. Visitors and devotees marvel at your work, especially Shri Sammed Sikharji—a masterpiece surpassing even the Taj Mahal in grandeur. 
+                                        Your unmatched planning, design, execution, and ancient artistry deserve global acclaim. The Jain Samaj deeply cherishes your invaluable contributions and looks forward to honoring you at Pratistha. Thank you for your unwavering dedication.
                                         </p>
                                         <div className="testimonial__info mt-40">
                                         <div className="info">
-                                            <h5 className="mb-1">Suborna Islam</h5>
-                                            <span>Web Designer</span>
+                                        <h5 className="mb-1">Harshad Kundalia</h5>
+                                        <span>MG. Trustee</span>
                                         </div>
                                         </div>
                                     </div>
@@ -112,13 +112,12 @@ function ProjectHomeOne({ className }) {
                                 <SwiperSlide>
                                     <div className="testimonial__content">
                                         <p>
-                                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                                        classical Latin literature from 45 BC, making it over 2000 years old.
+                                       
                                         </p>
                                         <div className="testimonial__info mt-40">
                                         <div className="info">
-                                            <h5 className="mb-1">Kawser Ahmed</h5>
-                                            <span>Web Developer</span>
+                                            <h5 className="mb-1"></h5>
+                                            <span></span>
                                         </div>
                                         </div>
                                     </div>

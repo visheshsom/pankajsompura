@@ -27,10 +27,10 @@ function ChooseUsHomeOne({ className }) {
                                 <div className="choose__content mt-30 mb-50">
                                     <ul className="wow fadeInDown" data-wow-delay="00ms" data-wow-duration="1500ms">
                                         <li><img src={Chooseimage1} alt="icon"/>
-                                            <h3>Commercial Furniture</h3>
+                                            <h3>Shilp Shastra</h3>
                                         </li>
                                         <li><img src={Chooseimage2} alt="icon"/>
-                                            <h3>Home Lighting</h3>
+                                            <h3>Unique Design</h3>
                                         </li>
                                     </ul>
                                 </div>
