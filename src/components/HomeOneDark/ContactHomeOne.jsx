@@ -54,7 +54,7 @@ function ContactHomeOne({ className }) {
                             </div>
                             <div className="info">
                                 <h6 className="mb-1">Call us for any inquiry</h6>
-                                <h3>(000) 222 22 333</h3>
+                                <h3>(+91) 98251 66726</h3>
                             </div>
                         </div>
                     </div>

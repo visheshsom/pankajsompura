@@ -59,7 +59,7 @@ function Header({ className = '', scroll = false }) {
         <div className="container">
             <div className="header__main">
                 <Link to="/" className="logo">
-                    <img src={logo1} alt="logo"/>
+                    <img src={logo1} alt="logo" style={{ height: "120px", width: "145px" }} />
                 </Link>
                 <div className="main-menu">
                     <nav>

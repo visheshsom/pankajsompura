@@ -6,24 +6,8 @@ function Navigation() {
         <nav>
             <ul>
                 <li>
-                    <Link to="#0">Home <i className="fa-solid fa-angle-down"></i></Link>
-                    <ul className="sub-menu">
-                        <li><Link to="/">Home Page 01</Link></li>
-                        <li><Link to="/index-2">Home Page 02</Link></li>
-                        <li><Link to="/index-3">Home Page 03</Link></li>
-                        <li><Link to="/index-4">Home Page 04</Link></li>
-                        <li><Link to="/index-5">Home Page 05</Link></li> 
-                        <li>
-                            <Link className="arrow" to="#">RTL</Link>
-                            <ul className="sub-sub-menu">
-                                <li><Link to="/index-1-rtl">RTL Style 01</Link></li>
-                                <li><Link to="/index-2-rtl">RTL Style 02</Link></li>
-                                <li><Link to="/index-3-rtl">RTL Style 03</Link></li>
-                                <li><Link to="/index-4-rtl">RTL Style 04</Link></li>
-                                <li><Link to="/index-5-rtl">RTL Style 05</Link></li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <Link to="/">Home</Link>
+                    
                 </li>
                 <li><Link to="/page-about">About Us</Link></li>
                 <li>
