@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import Aboutimage1 from '../../assets/images/about/view13.jpg';
-import Aboutimage2 from '../../assets/images/about/view9.jpg';
+import Aboutimage1 from '../../assets/images/about/View13.jpg';
+import Aboutimage2 from '../../assets/images/about/View9.jpg';
 import AboutCircleimage from '../../assets/images/about/about-circle-text.png';
 import AboutCircleimageDark from '../../assets/images/about/about-circle-text-dark.png';
 
