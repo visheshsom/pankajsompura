@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import ChooseShapeimage1 from '../../assets/images/choose/choose-image2.png';
+import ChooseShapeimage1 from '../../assets/images/choose/shikhar22.png';
 import Chooseimage1 from '../../assets/images/icon/choose-icon1.png';
 import Chooseimage2 from '../../assets/images/icon/choose-icon2.png';
 import Chooseimage3 from '../../assets/images/choose/cm.png';
@@ -12,7 +12,7 @@ function ChooseUsHomeOne({ className }) {
         <>
             <section className={`choose-area pt-120 pb-120 ${className || ""}`}>
                 <div className="choose__shape">
-                    <img src={ChooseShapeimage1} alt="image"/>
+                    <img src={ChooseShapeimage1} alt="image" style={{ width: '500px', height: '600px' }}/>
                 </div>
                 <div className="container">
                     <div className="choose__wrp">

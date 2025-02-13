@@ -1,6 +1,6 @@
 
 import { Link } from 'react-router-dom';
-import ChooseShapeimage1 from '../../assets/images/choose/choose-image2.png';
+import ChooseShapeimage1 from '../../assets/images/choose/shikhar22.png';
 import Chooseimage1 from '../../assets/images/icon/choose-icon1-dark.png';
 import Chooseimage2 from '../../assets/images/icon/choose-icon2-dark.png';
 import Chooseimage3 from '../../assets/images/choose/choose-image-dark.png';
