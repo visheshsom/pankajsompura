@@ -12,7 +12,7 @@ function ChooseUsHomeOne({ className }) {
         <>
             <section className={`choose-area pt-120 pb-120 ${className || ""}`}>
                 <div className="choose__shape">
-                    <img src={ChooseShapeimage1} alt="image" style={{ width: '500px', height: '600px' }}/>
+                    <img src={ChooseShapeimage1} alt="image" style={{ width: '650px', height: '550px' }}/>
                 </div>
                 <div className="container">
                     <div className="choose__wrp">
