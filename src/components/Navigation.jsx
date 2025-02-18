@@ -28,12 +28,7 @@ function Navigation() {
                         <li><Link to="/page-team-details">Team Details</Link></li>
                         <li><Link to="/page-testimonial">Testimonials</Link></li>
                         <li><Link to="/page-faq">FAQ’s</Link></li>
-                        <li><Link to="/shop-products">Shop Product</Link></li>
-                        <li><Link to="/shop-products-sidebar">Products Sidebar</Link></li>
-                        <li><Link to="/shop-product-details">Product Details</Link></li>
-                        <li><Link to="/shop-checkout">Checkout</Link></li>
-                        <li><Link to="/shop-cart">Cart</Link></li>
-                        <li><Link to="/page-404">404 Error</Link></li>
+                        
                     </ul>
                 </li>
                 <li>

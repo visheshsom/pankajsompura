@@ -15,15 +15,15 @@ function ContactV1({ className }) {
                         <div className="row g-4 align-items-center justify-content-between">
                             <div className="col-lg-5 col-xxl-4">
                                 <div className="talk__item" style={{ backgroundImage: `url(${ContactBgImage})`}}>
-                                    <h3 className="mb-40 wow splt-txt" data-splitting>+(000) 123-456780</h3>
+                                    <h3 className="mb-40 wow splt-txt" data-splitting>+(91) 98251 66726 </h3>
                                     <ul>
                                         <li>
                                             <h4 className="wow splt-txt" data-splitting>Address</h4>
-                                            <p>45121 NYC Ave. Manchester, Kentucky 00+898</p>
+                                            <p>6/1 3rd-Floor Takshashila Apartment, Thaltej, Ahmedabad, Gujarat 380059</p>
                                         </li>
                                         <li>
                                             <h4 className="wow splt-txt" data-splitting>Email</h4>
-                                            <p>Support@AuraDeco.com</p>
+                                            <p>pankajsompura@pankajsompura.com</p>
                                         </li>
                                     </ul>
                                     <div className="socials">

@@ -161,7 +161,7 @@ function Header({ className = '', scroll = false }) {
         </div>
     </div>
 
-    <Link to="/home-dark-one" className="btn__mood-dark"><i className="fa-light fa-moon"></i></Link>
+  
 
 </div>
     );

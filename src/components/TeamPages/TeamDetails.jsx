@@ -8,7 +8,7 @@ import PageTitle from '../PageTitle.jsx';
 import ProgressBar2 from '../../lib/ProgressBar2';
 
 // Import images
-import TeamDetailsImg from '../../assets/images/resource/team-details.jpg';
+import TeamDetailsImg from '../../assets/images/resource/pankajs.png';
 const percentage1 = 80;
 const percentage2 = 70;
 const percentage3 = 55; 
@@ -39,20 +39,20 @@ function TeamDetails() {
                                 <div className="col-xl-6 col-lg-6">
                                     <div className="team-details__top-right">
                                         <div className="team-details__top-content">
-                                            <h3 className="team-details__top-name">Alen Hispro</h3>
-                                            <p className="team-details__top-title">Chief Attorney</p>
+                                            <h3 className="team-details__top-name">Pankaj Sompura</h3>
+                                            <p className="team-details__top-title">Director</p>
                                             <p className="team-details__top-text-1">I help my clients stand out and they help me grow.</p>
                                             <div className="team-details-contact mb-30">
                                                 <h5 className="mb-0">Email Address</h5>
-                                                <div className=""><span>needhelp@yourdomain.com</span></div>
+                                                <div className=""><span>pankajsompura@pankajsompura.com</span></div>
                                             </div>
                                             <div className="team-details-contact mb-30">
                                                 <h5 className="mb-0">Phone Number</h5>
-                                                <div className=""><span>+012-3456-789</span></div>
+                                                <div className=""><span>+91 98251 66726</span></div>
                                             </div>
                                             <div className="team-details-contact">
                                                 <h5 className="mb-0">Web Address</h5>
-                                                <div className=""><span>www.yourdomain.com</span></div>
+                                                <div className=""><span>www.pankajsompura.com</span></div>
                                             </div>
                                             <div className="team-details__social">
                                                 <Link className="text-white" to="#"><i className="fab fa-twitter"></i></Link>
@@ -91,7 +91,7 @@ function TeamDetails() {
                 <div className="container pb-100 pt-100">
                     <div className="sec-title mb-50 text-center">
                         <span className="sub-title">Contact With Us Now</span>
-                        <h2 className="section-title__title">Feel Free to Write Our <br /> Alen Hispro</h2>
+                        <h2 className="section-title__title">Feel Free to Write Our <br /> Pankaj Sompura</h2>
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-lg-8">
