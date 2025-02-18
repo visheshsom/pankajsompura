@@ -3,9 +3,9 @@ import {Link} from 'react-router-dom';
 import TeamShapeImage from '../../assets/images/shape/team-five-shape.png';
 import TeamIconImage from '../../assets/images/icon/five-start-icon.png';
 import TeamImage1 from '../../assets/images/team/IMG_7921.png';
-import TeamImage2 from '../../assets/images/team/team-five-image2.png';
-import TeamImage3 from '../../assets/images/team/team-five-image3.png';
-import TeamImage4 from '../../assets/images/team/team-five-image4.png';
+import TeamImage2 from '../../assets/images/team/piyush.png';
+import TeamImage3 from '../../assets/images/team/nishrasom.png';
+import TeamImage4 from '../../assets/images/team/visheshsom.png';
 
 function TeamHomeFive({ className }) {
 return (
@@ -21,7 +21,7 @@ return (
                             <div className="team-five__content">
                                 <div className="section-header">
                                     <h3>Team</h3>
-                                    <h2 className="wow splt-txt text-black mb-40" data-splitting>Our awesome team members </h2>
+                                    <h2 className="wow splt-txt text-black mb-40" data-splitting>Our team members </h2>
                                     <p className="wow fadeInUp mt-0" data-wow-delay="200ms" data-wow-duration="1500ms">To explore and go after new ways to build, we’ve gathered the people, innovations, & partnerships that can anticipate & overcome new challenges. </p>
                                 </div>
                                 <div className="about-two__info d-flex align-items-center gap-3 mt-40 wow fadeInDown"
@@ -93,8 +93,8 @@ return (
                                             </div>
                                         </div>
                                         <div className="content">
-                                            <h3 className="mb-2"><Link className="primary-hover" to="/page-team-details">Bessie Cooper</Link></h3>
-                                            <span>Student</span>
+                                            <h3 className="mb-2"><Link className="primary-hover" to="/page-team-details">Piyush Patel</Link></h3>
+                                            <span>Advisory</span>
                                         </div>
                                     </div>
                                 </div>
@@ -125,8 +125,8 @@ return (
                                             </div>
                                         </div>
                                         <div className="content">
-                                            <h3 className="mb-2"><Link className="primary-hover" to="/page-team-details">Annette Black</Link></h3>
-                                            <span>HR Neuro</span>
+                                            <h3 className="mb-2"><Link className="primary-hover" to="/page-team-details">Nishra Sompura</Link></h3>
+                                            <span>Senior Architect</span>
                                         </div>
                                     </div>
                                 </div>
@@ -157,8 +157,8 @@ return (
                                             </div>
                                         </div>
                                         <div className="content">
-                                            <h3 className="mb-2"><Link className="primary-hover" to="/page-team-details">Devon Lane</Link></h3>
-                                            <span>CEO Neuro</span>
+                                            <h3 className="mb-2"><Link className="primary-hover" to="/page-team-details">Vishesh Sompura</Link></h3>
+                                            <span>Software Engineer / COO</span>
                                         </div>
                                     </div>
                                 </div>
