@@ -52,7 +52,7 @@ function ProjectHomeOne({ className }) {
                         <figure className="wow imageUpToDown gsap__parallax">
                             <img
                             src={Testimonialimage1}
-                            alt="testimonial"
+                            alt="testimonial" 
                             />
                         </figure>
                         </div>

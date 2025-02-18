@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import TeamShapeImage from '../../assets/images/shape/team-five-shape.png';
 import TeamIconImage from '../../assets/images/icon/five-start-icon.png';
-import TeamImage1 from '../../assets/images/team/team-five-image1.png';
+import TeamImage1 from '../../assets/images/team/IMG_7921.png';
 import TeamImage2 from '../../assets/images/team/team-five-image2.png';
 import TeamImage3 from '../../assets/images/team/team-five-image3.png';
 import TeamImage4 from '../../assets/images/team/team-five-image4.png';
@@ -63,8 +63,8 @@ return (
                                             </div>
                                         </div>
                                         <div className="content">
-                                            <h3 className="mb-2"><Link className="primary-hover" to="/page-team-details">Leslie Alexander</Link></h3>
-                                            <span>Designer</span>
+                                            <h3 className="mb-2"><Link className="primary-hover" to="/page-team-details">Pankaj Sompura</Link></h3>
+                                            <span>Director / Principal Architect</span>
                                         </div>
                                     </div>
                                 </div>
