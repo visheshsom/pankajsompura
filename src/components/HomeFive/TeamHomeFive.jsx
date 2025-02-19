@@ -55,9 +55,9 @@ return (
                                                     </defs>
                                                 </svg>
                                                 <div className="socials">
-                                                    <Link to="#"><i className="fa-brands fa-twitter"></i></Link>
-                                                    <Link to="#"><i className="fa-brands fa-facebook-f"></i></Link>
-                                                    <Link to="#"><i className="fa-brands fa-linkedin-in"></i></Link>
+                                                    <Link to="https://x.com/CompanyPankaj"><i className="fa-brands fa-x-twitter"></i></Link>
+                                                    <Link to="https://www.facebook.com/p/Pankaj-Sompura-Company-100063625344714/"><i className="fa-brands fa-facebook-f"></i></Link>
+                                                    <Link to="https://www.linkedin.com/in/pankaj-sompura-12384a1b7/"><i className="fa-brands fa-linkedin-in"></i></Link>
                                                     <Link to="#"><i className="fa-brands fa-instagram"></i></Link>
                                                 </div>
                                             </div>
@@ -85,7 +85,7 @@ return (
                                                     </defs>
                                                 </svg>
                                                 <div className="socials">
-                                                    <Link to="#"><i className="fa-brands fa-twitter"></i></Link>
+                                                    <Link to="#"><i className="fa-brands fa-x-twitter"></i></Link>
                                                     <Link to="#"><i className="fa-brands fa-facebook-f"></i></Link>
                                                     <Link to="#"><i className="fa-brands fa-linkedin-in"></i></Link>
                                                     <Link to="#"><i className="fa-brands fa-instagram"></i></Link>
@@ -117,9 +117,9 @@ return (
                                                     </defs>
                                                 </svg>
                                                 <div className="socials">
-                                                    <Link to="#"><i className="fa-brands fa-twitter"></i></Link>
+                                                    <Link to="#"><i className="fa-brands fa-x-twitter"></i></Link>
                                                     <Link to="#"><i className="fa-brands fa-facebook-f"></i></Link>
-                                                    <Link to="#"><i className="fa-brands fa-linkedin-in"></i></Link>
+                                                    <Link to="https://www.linkedin.com/in/nishra-sompura-55833a288/"><i className="fa-brands fa-linkedin-in"></i></Link>
                                                     <Link to="#"><i className="fa-brands fa-instagram"></i></Link>
                                                 </div>
                                             </div>
@@ -149,10 +149,9 @@ return (
                                                     </defs>
                                                 </svg>
                                                 <div className="socials">
-                                                    <Link to="#"><i className="fa-brands fa-twitter"></i></Link>
-                                                    <Link to="#"><i className="fa-brands fa-facebook-f"></i></Link>
-                                                    <Link to="#"><i className="fa-brands fa-linkedin-in"></i></Link>
-                                                    <Link to="#"><i className="fa-brands fa-instagram"></i></Link>
+                                                    <Link to="https://x.com/visheshsompura9"><i className="fa-brands fa-x-twitter"></i></Link>
+                                                    <Link to="https://www.facebook.com/vishesh.som97"><i className="fa-brands fa-facebook-f"></i></Link>
+                                                    <Link to="https://www.linkedin.com/in/vishesh-sompura/"><i className="fa-brands fa-linkedin-in"></i></Link>
                                                 </div>
                                             </div>
                                         </div>

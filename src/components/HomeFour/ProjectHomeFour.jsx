@@ -6,7 +6,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import 'swiper/css/pagination';
 import Projectimage1 from '../../assets/images/bg/project-four-bg.jpg';
-import Projectimage2 from '../../assets/images/bg/project-four-bg2.jpg';
+import Projectimageg1 from '../../assets/images/bg/sammed_main_mandir.png';
+import Projectimage2 from '../../assets/images/bg/06.jpg';
 import Projectimage3 from '../../assets/images/bg/project-four-bg3.jpg';
 import Projectimage4 from '../../assets/images/bg/project-four-bg4.jpg';
 
@@ -71,23 +72,33 @@ return (
                 nextEl: ".project__arry-next",
                 }}
                 className="swiper-wrapper">
-                    <SwiperSlide className="swiper-slide">
-                        <div className="project__item" style={{ backgroundImage: `url(${Projectimage1})`}}>
-                            <div className="project-four__content">
-                                <h2>01</h2>
-                                <div className="d-flex align-items-center justify-content-between">
-                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">Transforming Rooms</Link></h4>
-                                    <Link to="/page-project-details" className="btn-arrow"><i className="fa-light fa-arrow-up-right"></i></Link>
-                                </div>
+                <SwiperSlide className="swiper-slide">
+                    <div className="project__item" style={{ 
+                        backgroundImage: `url(${Projectimageg1})`,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        backgroundRepeat: 'no-repeat'
+                    }}>
+                        <div className="project-four__content">
+                            <h2>01</h2>
+                            <div className="d-flex align-items-center justify-content-between">
+                                <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">Shri Sammet Shikhar, Madhuban</Link></h4>
+                                <Link to="/page-project-details" className="btn-arrow"><i className="fa-light fa-arrow-up-right"></i></Link>
                             </div>
                         </div>
-                    </SwiperSlide>
+                    </div>
+                </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
-                        <div className="project__item" style={{ backgroundImage: `url(${Projectimage2})`}}>
+                    <div className="project__item" style={{ 
+                        backgroundImage: `url(${Projectimage2})`,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        backgroundRepeat: 'no-repeat'
+                    }}>
                             <div className="project-four__content">
                                 <h2>02</h2>
                                 <div className="d-flex align-items-center justify-content-between">
-                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">Initial computer Designs</Link></h4>
+                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">Shri Namiun Tirth, MP</Link></h4>
                                     <Link to="/page-project-details" className="btn-arrow"><i className="fa-light fa-arrow-up-right"></i></Link>
                                 </div>
                             </div>

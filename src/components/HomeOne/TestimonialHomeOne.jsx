@@ -5,7 +5,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import 'swiper/css/pagination';
-import Testimonialimage1 from '../../assets/images/testimonial/test1.png';
+import Testimonialimage1 from '../../assets/images/testimonial/10.jpg';
 import Testimonialimage2 from '../../assets/images/bg/testimonial-item-bg.jpg';
 
 
@@ -53,6 +53,7 @@ function ProjectHomeOne({ className }) {
                             <img
                             src={Testimonialimage1}
                             alt="testimonial" 
+                            height="80%"
                             />
                         </figure>
                         </div>
