@@ -30,7 +30,7 @@ function Navigation2() {
                             <li><Link to="/page-team-details">Team Details</Link></li>
                             <li><Link to="/page-testimonial">Testimonials</Link></li>
                             <li><Link to="/page-faq">FAQ’s</Link></li>
-                            </ul>
+                        </ul>
                 </li>
                 <li>
                     <Link to="#0">Blog <i className="fa-solid fa-angle-down"></i></Link>

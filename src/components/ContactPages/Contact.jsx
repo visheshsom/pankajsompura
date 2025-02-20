@@ -106,8 +106,12 @@ function Contact() {
 
 	{/* <!-- Map Section--> */}
 	<section className="map-section">
-		<iframe  className="map w-100"  src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-	</section>
+    <iframe  
+        className="map w-100"  
+        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=TAKSHASHILA%20APARTMENT,%20Thaltej,%20Ahmedabad,%20Gujarat%20380059&amp;t=&amp;z=19&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+    </iframe>
+</section>
+
 	{/* <!--End Map Section--> */}
         <FooterHomeThree />
         <BackToTop />

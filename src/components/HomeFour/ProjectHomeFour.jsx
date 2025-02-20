@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import 'swiper/css/pagination';
-import Projectimage1 from '../../assets/images/bg/project-four-bg.jpg';
+import Projectimage1 from '../../assets/images/bg/samet_temple.png';
 import Projectimageg1 from '../../assets/images/bg/sammed_main_mandir.png';
 import Projectimage2 from '../../assets/images/bg/06.jpg';
-import Projectimage3 from '../../assets/images/bg/project-four-bg3.jpg';
+import Projectimage3 from '../../assets/images/bg/c6.jpg';
 import Projectimage4 from '../../assets/images/bg/project-four-bg4.jpg';
+
+
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
@@ -45,6 +47,127 @@ const swiperOptions = {
 
 
 function ProjectHomeFour({ className }) {
+
+    const canvasRef = useRef(null);
+    const [isHovered, setIsHovered] = useState(false);
+  
+    useEffect(() => {
+      const canvas = canvasRef.current;
+      if (!canvas) return;
+  
+      const ctx = canvas.getContext('2d');
+      let animationFrameId;
+  
+      // Set canvas dimensions
+      const setCanvasSize = () => {
+        canvas.width = canvas.offsetWidth;
+        canvas.height = canvas.offsetHeight;
+      };
+      setCanvasSize();
+      window.addEventListener('resize', setCanvasSize);
+  
+      // Particle class
+      class Particle {
+        constructor() {
+          this.reset(true);
+        }
+  
+        reset(initial) {
+          this.x = Math.random() * canvas.width;
+          this.y = Math.random() * canvas.height;
+          if (!initial) {
+            this.targetX = this.x;
+            this.targetY = this.y;
+          }
+          this.vx = 0;
+          this.vy = 0;
+        }
+  
+        update(targets) {
+          if (isHovered && targets) {
+            const dx = this.targetX - this.x;
+            const dy = this.targetY - this.y;
+            this.vx += dx * 0.02;
+            this.vy += dy * 0.02;
+          } else {
+            this.vx += (Math.random() - 0.5) * 0.1;
+            this.vy += (Math.random() - 0.5) * 0.1;
+          }
+  
+          this.vx *= 0.95;
+          this.vy *= 0.95;
+          this.x += this.vx;
+          this.y += this.vy;
+  
+          // Keep within bounds
+          if (this.x < 0 || this.x > canvas.width) this.vx *= -1;
+          if (this.y < 0 || this.y > canvas.height) this.vy *= -1;
+        }
+  
+        draw() {
+          ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+          ctx.beginPath();
+          ctx.arc(this.x, this.y, 1.5, 0, Math.PI * 2);
+          ctx.fill();
+        }
+      }
+  
+      // Create particles
+      const particles = Array.from({ length: 800 }, () => new Particle());
+  
+      // Load temple image for target positions
+      const img = new Image();
+      img.src = Projectimage1;
+      let targets = [];
+  
+      img.onload = () => {
+        const tempCanvas = document.createElement('canvas');
+        const tempCtx = tempCanvas.getContext('2d');
+        tempCanvas.width = img.width;
+        tempCanvas.height = img.height;
+        tempCtx.drawImage(img, 0, 0);
+  
+        const imageData = tempCtx.getImageData(0, 0, img.width, img.height);
+        const data = imageData.data;
+  
+        // Collect target positions from image
+        for (let y = 0; y < img.height; y += 4) {
+          for (let x = 0; x < img.width; x += 4) {
+            if (data[(y * img.width + x) * 4 + 3] > 128) {
+              targets.push({
+                x: (x / img.width) * canvas.width,
+                y: (y / img.height) * canvas.height
+              });
+            }
+          }
+        }
+  
+        // Assign targets to particles
+        particles.forEach((particle, i) => {
+          if (targets[i % targets.length]) {
+            particle.targetX = targets[i % targets.length].x;
+            particle.targetY = targets[i % targets.length].y;
+          }
+        });
+      };
+  
+      // Animation loop
+      const animate = () => {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        particles.forEach(particle => {
+          particle.update(targets);
+          particle.draw();
+        });
+        animationFrameId = requestAnimationFrame(animate);
+      };
+      animate();
+  
+      return () => {
+        window.removeEventListener('resize', setCanvasSize);
+        cancelAnimationFrame(animationFrameId);
+      };
+    }, [isHovered]);    
+
 return (
 <>
         <section className={`project-four-area ${className || ''}`}>
@@ -59,11 +182,33 @@ return (
                     </div>
                 </div>
             </div>
-            <div className="project__wrp project-four__wrp" style={{ backgroundImage: `url(${Projectimage1})` }}>
-                <div className="project__slider-arrys">
-                    <button className="project__arry-prev"><i className="fa-regular fa-arrow-left"></i></button>
-                    <button className="project__arry-next"><i className="fa-regular fa-arrow-right"></i></button>
-                </div>
+            <div 
+          className="project__wrp project-four__wrp" 
+          style={{ 
+            position: 'relative',
+            height: '10%',
+            width: '100%',
+            overflow: 'hidden'
+          }}
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+        >
+          <canvas 
+            ref={canvasRef} 
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%'
+            }} 
+          />
+          <div className="project__slider-arrys">
+            <button className="project__arry-prev"><i className="fa-regular fa-arrow-left"></i></button>
+            <button className="project__arry-next"><i className="fa-regular fa-arrow-right"></i></button>
+          </div>
+        </div>
+
                 <div className="swiper project__slider">
                 <Swiper {...swiperOptions}
                 modules={[Navigation]}
@@ -105,11 +250,15 @@ return (
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
-                        <div className="project__item" style={{ backgroundImage: `url(${Projectimage3})`}}>
+                        <div className="project__item" style={{ 
+                        backgroundImage: `url(${Projectimage3})`,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        backgroundRepeat: 'no-repeat'}}>
                             <div className="project-four__content">
                                 <h2>03</h2>
                                 <div className="d-flex align-items-center justify-content-between">
-                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">Depth Design process</Link></h4>
+                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">Shree Samvasran Pattshala, Bangalore</Link></h4>
                                     <Link to="/page-project-details" className="btn-arrow"><i className="fa-light fa-arrow-up-right"></i></Link>
                                 </div>
                             </div>
@@ -150,7 +299,7 @@ return (
                     </SwiperSlide>
                 </Swiper>
             </div>
-            </div>
+            
         </section>
 </>
 );
