@@ -10,7 +10,7 @@ import Projectimageg1 from '../../assets/images/bg/sammed_main_mandir.png';
 import Projectimage2 from '../../assets/images/bg/06.jpg';
 import Projectimage3 from '../../assets/images/bg/c6.jpg';
 import Projectimage4 from '../../assets/images/bg/project-four-bg4.jpg';
-
+import TempleDotAnimation from './TPA';
 
 
 const swiperOptions = {
@@ -183,31 +183,19 @@ return (
                 </div>
             </div>
             <div 
-          className="project__wrp project-four__wrp" 
-          style={{ 
-            position: 'relative',
-            height: '10%',
-            width: '100%',
-            overflow: 'hidden'
-          }}
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
-        >
-          <canvas 
-            ref={canvasRef} 
-            style={{
-              position: 'absolute',
-              top: 0,
-              left: 0,
-              width: '100%',
-              height: '100%'
-            }} 
-          />
-          <div className="project__slider-arrys">
-            <button className="project__arry-prev"><i className="fa-regular fa-arrow-left"></i></button>
-            <button className="project__arry-next"><i className="fa-regular fa-arrow-right"></i></button>
-          </div>
-        </div>
+                    className="project__wrp project-four__wrp" 
+                    style={{ 
+                        position: 'relative',
+                   
+                        overflow: 'hidden'
+                    }}
+                >
+                    <TempleDotAnimation />
+  <div className="project__slider-arrys">
+    <button className="project__arry-prev"><i className="fa-regular fa-arrow-left"></i></button>
+    <button className="project__arry-next"><i className="fa-regular fa-arrow-right"></i></button>
+  </div>
+</div>
 
                 <div className="swiper project__slider">
                 <Swiper {...swiperOptions}
@@ -304,5 +292,4 @@ return (
 </>
 );
 }
-
-export default ProjectHomeFour;
+export default ProjectHomeFour; 
