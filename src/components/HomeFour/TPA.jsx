@@ -160,6 +160,8 @@
 // };
 
 // export default TempleDotAnimation;
+
+
 import React, { useEffect, useRef, useState } from 'react';
 
 const TempleDotAnimation = () => {
@@ -183,14 +185,15 @@ const TempleDotAnimation = () => {
 
         if (!container) return;
 
-        // Get container dimensions
+        // Get fixed container dimensions
         const containerWidth = container.offsetWidth;
         const containerHeight = container.offsetHeight;
 
-        // Calculate scale ratio to fill container
-        const widthRatio = containerWidth / originalWidth;
-        const heightRatio = containerHeight / originalHeight;
-        const scale = Math.max(widthRatio, heightRatio);
+        // Calculate scale ratio to maintain aspect ratio
+        const scale = Math.min(
+          containerWidth / originalWidth,
+          containerHeight / originalHeight
+        );
 
         // Calculate offsets for centering
         const offsetX = (containerWidth - originalWidth * scale) / 2;
@@ -223,29 +226,25 @@ const TempleDotAnimation = () => {
 
     const ctx = canvas.getContext('2d');
     
-    // Set canvas size to match container exactly
+    // Set fixed canvas size
     const setCanvasSize = () => {
       canvas.width = container.offsetWidth;
       canvas.height = container.offsetHeight;
     };
     setCanvasSize();
 
-    // Sharp color palette with full opacity
-    const colors = ['#c39867', '#a77745', '#51310f'];
-    
     // Particle class
     class Particle {
       constructor(targetX, targetY) {
         this.targetX = targetX;
         this.targetY = targetY;
-        this.color = colors[Math.floor(Math.random() * colors.length)];
         this.resetPosition();
-        this.baseSize = 1.2; // Base size for sharpness
+        this.baseSize = 1.5;
         this.size = this.baseSize;
         this.vx = 0;
         this.vy = 0;
-        this.acceleration = 0.25; // Increased acceleration
-        this.friction = 0.85; // Reduced friction
+        this.acceleration = 0.15; // Slower acceleration
+        this.friction = 0.92; // Higher friction
       }
 
       resetPosition() {
@@ -255,25 +254,17 @@ const TempleDotAnimation = () => {
 
       update() {
         if (isHovered) {
-          // Faster movement calculations
           const dx = this.targetX - this.x;
           const dy = this.targetY - this.y;
           const distance = Math.sqrt(dx * dx + dy * dy);
 
-          if (distance > 2) { // Reduced distance threshold
+          if (distance > 2) {
             this.vx += (dx / distance) * this.acceleration;
             this.vy += (dy / distance) * this.acceleration;
           }
-          
-          // Snap to position when close
-          if (distance < 2) {
-            this.x = this.targetX;
-            this.y = this.targetY;
-          }
         } else {
-          // Reduced random movement
-          this.vx += (Math.random() - 0.5) * 0.05;
-          this.vy += (Math.random() - 0.5) * 0.05;
+          this.vx += (Math.random() - 0.5) * 0.03;
+          this.vy += (Math.random() - 0.5) * 0.03;
         }
 
         this.vx *= this.friction;
@@ -288,15 +279,12 @@ const TempleDotAnimation = () => {
       }
 
       draw() {
-        ctx.beginPath();
-        // Draw sharp rectangles instead of circles
-        const size = isHovered ? this.baseSize : 0.8;
-        ctx.fillStyle = this.color;
+        ctx.fillStyle = '#51310f'; // Unified dark brown color
         ctx.fillRect(
-          Math.floor(this.x - size/2), // Align to pixel grid
-          Math.floor(this.y - size/2),
-          size,
-          size
+          Math.floor(this.x - this.size/2),
+          Math.floor(this.y - this.size/2),
+          this.size,
+          this.size
         );
       }
     }
@@ -309,14 +297,14 @@ const TempleDotAnimation = () => {
     const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       
-      // Draw in two passes for better sharpness
-      particles.forEach(particle => particle.update());
-      particles.forEach(particle => particle.draw());
+      particles.forEach(particle => {
+        particle.update();
+        particle.draw();
+      });
 
       animationRef.current = requestAnimationFrame(animate);
     };
     
-    // Improve canvas rendering quality
     ctx.imageSmoothingEnabled = false;
     animate();
 
@@ -326,12 +314,18 @@ const TempleDotAnimation = () => {
   return (
     <div 
       ref={containerRef}
-      className="temple-animation-container relative w-full h-[700px] bg-white"
-      style={{ position: 'relative', overflow: 'hidden' }}
+      className="temple-animation-container relative w-full h-[600px] bg-white"
+      style={{ 
+        position: 'relative',
+        overflow: 'hidden',
+        width: '100%', 
+        height: '600px' // Fixed height
+      }}
     >
       <canvas
         ref={canvasRef}
         className="absolute top-0 left-0 w-full h-full"
+        style={{ width: '100%', height: '100%' }} // Explicit size
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       />
