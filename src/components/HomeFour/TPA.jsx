@@ -163,6 +163,8 @@
 
 
 import React, { useEffect, useRef, useState } from 'react';
+const JSON_URL = '/coordinator.json';
+
 
 const TempleDotAnimation = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -173,7 +175,8 @@ const TempleDotAnimation = () => {
   const animationRef = useRef(null);
 
   // Path to JSON coordinates file
-  const JSON_URL = '/src/components/HomeFour/coordinator.json';
+  
+
 
   // Load and process coordinates
   useEffect(() => {
