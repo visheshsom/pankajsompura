@@ -1,26 +1,22 @@
-# Step 1: Use Node.js to Build React App
+# Step 1: Build React App with Vite
 FROM node:18-alpine AS build
-
-# Set working directory
 WORKDIR /usr/src/app
 
-# Copy package.json and package-lock.json to leverage caching
+# Copy dependencies first
 COPY package.json package-lock.json ./
-
-# Install dependencies
 RUN npm install
 
-# Copy the entire project
+# Copy project files
 COPY . .
 
-# Build the React app
+# Build the React app (Vite outputs to "dist/")
 RUN npm run build
 
-# Step 2: Use Nginx to Serve the React App
+# Step 2: Serve with Nginx
 FROM nginx:alpine
 
-# Copy build output from the previous stage
-COPY --from=build /usr/src/app/build /usr/share/nginx/html
+# Ensure Nginx serves the React app correctly
+COPY --from=build /usr/src/app/dist /usr/share/nginx/html
 
 # Expose port 80
 EXPOSE 80
