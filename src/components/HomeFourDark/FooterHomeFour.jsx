@@ -62,7 +62,7 @@ function FooterHomeFour({ className }) {
                 <div className="footer-bottom light-area">
                     <div className="container">
                         <div className="footer-bottom__wrp">
-                            <p>Copyright &copy; 2024 <Link to="#0">ThemeMascot</Link> All Rights Reserved.</p>
+                            <p>Copyright &copy; 2025 <Link to="#0">Pankaj Sompura</Link> Company</p>
                             <div className="socials">
                                 <Link to="#"><i className="fa-brands fa-twitter"></i></Link>
                                 <Link to="#"><i className="fa-brands fa-instagram"></i></Link>

@@ -19,7 +19,7 @@
 //   useEffect(() => {
 //     const loadCoordinates = async () => {
 //       try {
-//         const response = await fetch('/coordinator.json');
+//         const response = await fetch('');
 //         const { originalWidth, originalHeight, points } = await response.json();
 //         const container = containerRef.current;
         
@@ -317,7 +317,7 @@ const TempleDotAnimation = () => {
         this.y = Math.random() * rect.height;
         this.vx = 0;
         this.vy = 0;
-        this.size = 0.7;
+        this.size = 0.5;
         this.ease = 0.12;
         this.baseSpeed = 0.15;
       }

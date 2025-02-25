@@ -85,7 +85,7 @@ function FooterHomeFive({ className }) {
                     </div>
                 </div>
                 <div className="footer-three__copyright">
-                    <p>Copyright &copy; 2024 <Link to="#0">ThemeMascot</Link> Agency</p>
+                    <p>Copyright &copy; 2025 <Link to="#0">Pankaj Sompura</Link> Company</p>
                 </div>
             </footer>
         </>
