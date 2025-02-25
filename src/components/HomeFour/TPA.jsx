@@ -260,7 +260,7 @@ const TempleDotAnimation = () => {
 
       const transformedPoints = [];
       const pointSet = new Set();
-      const minDistance = 0.1;
+      const minDistance = 0.001;
 
       points.forEach(([x, y]) => {
         const tx = x * scale + (containerWidth - originalWidth * scale) / 2;
@@ -317,7 +317,7 @@ const TempleDotAnimation = () => {
         this.y = Math.random() * rect.height;
         this.vx = 0;
         this.vy = 0;
-        this.size = 0.5;
+        this.size = 0.7;
         this.ease = 0.12;
         this.baseSpeed = 0.15;
       }
