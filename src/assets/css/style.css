@@ -1,35 +1,3 @@
-/*-----------------------------------------------------------------
-
-Template Name: Innovatek - interior HTML Template
-Author:  ThemeMascot
-Author URI: https://themeforest.net/user/thememascot/portfolio
-Version: 1.0.0
-Description: Innovatek - interior HTML5 Template
-
--------------------------------------------------------------------
-CSS TABLE OF CONTENTS
--------------------------------------------------------------------
-
-01. abstracts
-    1.01 --> mixins
-    1.02 --> variable
-
-02. base
-    2.01 --> typography
-    2.02 --> animation
-    2.03 --> responsive
-
-03. components
-    3.01 --> buttons
-    3.02 --> progress
-
-04. layout
-    4.01 --> header
-    4.02 --> banner
-    4.03 --> section #215846
-    4.04 --> footer
-
-------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   --font-title: "Urbanist", sans-serif;
@@ -12726,3 +12694,91 @@ Sidebar
 textarea.form-control {
   height: auto;
 }
+
+
+
+/* Center the Swiper container and set size */
+.banner__slider {
+  width: 100%;
+  max-width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Ensure images fill their container */
+.parallax-bg {
+  width: 100%;
+  height: 100%;
+}
+
+.parallax-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Remove Swiper's default button styling */
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+/* Custom Left and Right Arrow Buttons */
+.banner__arry-prev,
+.banner__arry-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.banner__arry-prev:hover,
+.banner__arry-next:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Positioning the buttons */
+.banner__arry-prev {
+  left: 20px;
+}
+
+.banner__arry-next {
+  right: 20px;
+}
+
+/* Set up container for relative positioning */
+.banner__image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .banner__slider {
+    height: 400px;
+  }
+  
+  .banner__arry-prev,
+  .banner__arry-next {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+}
+
