@@ -5,7 +5,7 @@ import FooterHomeThree from '../HomeThree/FooterHomeThree.jsx';
 import PageTitle from '../PageTitle.jsx';
 
 // Import images
-import projectDetailsImage from '../../assets/images/resource/project-details.jpg';
+import projectDetailsImage from '../../assets/images/resource/Shikharji.png';
 
 
 function ProjectDetails() {
@@ -26,7 +26,13 @@ function ProjectDetails() {
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="project-details__top">
-                                    <div className="project-details__img"> <img src={projectDetailsImage} alt="Image "/> </div>
+                                    <div className="project-details__img" style={{ textAlign: 'center' }}> 
+                                        <img 
+                                            src={projectDetailsImage} 
+                                            alt="Image" 
+                                            style={{ width: '70%', height: 'auto' }}
+                                        /> 
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -37,19 +43,19 @@ function ProjectDetails() {
                                         <div className="row">
                                             <div className="col-6 col-md-3">
                                                 <p className="project-details__client">Date</p>
-                                                <h4 className="project-details__name">10 January, 2023</h4>
+                                                <h4 className="project-details__name">15 April, 2008</h4>
                                             </div>
                                             <div className="col-6 col-md-3">
                                                 <p className="project-details__client">Client</p>
-                                                <h4 className="project-details__name">Kodesolution Ltd</h4>
+                                                <h4 className="project-details__name">Sammet Shikharji Taleti Trust</h4>
                                             </div>
                                             <div className="col-6 col-md-3">
                                                 <p className="project-details__client">Website</p>
-                                                <h4 className="project-details__name">www.domain.com</h4>
+                                                <h4 className="project-details__name"><a href="https://www.instagram.com/taletitirth/?hl=en" target="_blank">Taletitirth</a></h4>
                                             </div>
                                             <div className="col-6 col-md-3">
                                                 <p className="project-details__client">Location</p>
-                                                <h4 className="project-details__name">New York, USA</h4>
+                                                <h4 className="project-details__name">Madhuban, Jharkhand, India</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -61,14 +67,25 @@ function ProjectDetails() {
                                 <div className="col-xl-12">
                                     <div className="project-details__content-left">
                                         <h3 className="mb-4 mt-5">Here to Know About This Project</h3>
-                                        <p className="">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Asperiores, repellat aliquid. Est corrupti officiis dignissimos deserunt sunt minima iusto quia saepe tempora consectetur dolor deleniti voluptatum et, eos vitae pariatur molestiae odit quos enim voluptas nobis ullam voluptatem cum iste. Dolore modi, animi optio, dignissimos delectus pariatur similique harum eos. </p>
-                                        <p className="mb-5">Beyond more stoic this along goodness hey this this wow manatee mongoose one as since a far flustered impressive manifest Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum illo ea ad, nam quisquam optio vel tempora, minus placeat, ut nisi quam quos laboriosam eos quibusdam cum atque suscipit quod dignissimos magni doloribus facere eius soluta possimus. Officiis, autem similique sequi labore aliquid corporis illo omnis voluptate optio possimus doloremque, error reiciendis delectus ex tempore, architecto eaque, inventore nihil pariatur quibusdam facere reprehenderit? Doloribus deleniti sapiente, dicta, dolorem unde deserunt quisquam. Dolore consequuntur reiciendis corporis perspiciatis quam fuga magnam molestiae minima culpa ab beatae vel itaque cumque et adipisci autem nisi qui esse in, deserunt numquam hic? Et, eligendi, assumen daEst corrupti officiis dignissimos.</p>
+                                        <p className="">The main temple is built over a violin-shaped center in the middle of a 15,000 square feet lake. 
+                                            4 bridges from each direction provide access to the main temple which has an unobstructed view from all directions.
+                                            24 temples for each Tirthankar surround the main temple that spans over 30,000 square feet. </p>
+
+                                        <p className="">The idol situated in Gumbaj temple is of special importance due to its detailed art work. A gentle slope created alongside stairs for each of the 4 temple entrances ensures the monument is easily accessible for elderly and disabled visitors also.</p>
+
+                                        <p className="">Lifelike monuments and idols constructed in the temples with intricate artwork are one of a kind. 25 unique designs have been used for each of the temples ensuring there is no repetition of art work or design.</p>
+
+                                        <p className="">Unique planning and placement of the individual temples ensures that 'Pradakshina' and 'Nauka Pradakshina' can be done of the main temple and individual 24 Tirthankar temples as well.</p>
+
+                                        <p className="mb-5">Construction and planning done on the grandest scale combined with the most intricate artwork and attention to detail to the smallest carving make Shri Samed Shikhar Tirth temple a must see monument.</p>
+
                                         <ul className="list-style-two mb-0">
-                                            <li><i className="fa fa-check-circle"></i> Lorem ipsum dolor amet consectetur adipisicing elit</li>
-                                            <li><i className="fa fa-check-circle"></i> Vitae pariatur molestiae odit quos enim</li>
-                                            <li><i className="fa fa-check-circle"></i> Beyond more stoic this along goodness hey this</li>
-                                            <li><i className="fa fa-check-circle"></i> Officiis autem similique sequi labore</li>
+                                            <li><i className="fa fa-check-circle"></i> 3,00,000 cubic feet of white marble has been used to construct this glorious monument</li>
+                                            <li><i className="fa fa-check-circle"></i> Spread over 1,10,600 square feet, Shri Samed Shikhar Tirth temple is one of the largest Jain temple in the world.</li>
+                                            <li><i className="fa fa-check-circle"></i> 4 entrances to the temple from each direction provide a grand view of this marble construction.</li>
+                                            
                                         </ul>
+                                        
                                     </div>
                                 </div>
                             </div>
