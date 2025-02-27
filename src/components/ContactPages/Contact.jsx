@@ -65,7 +65,7 @@ function Contact() {
     						<div className="sec-title">
     							<span className="sub-title">Need any help?</span>
     							<h2>Get in touch with us</h2>
-    							<div className="text">Lorem ipsum is simply free text available dolor sit amet consectetur notted adipisicing elit sed do eiusmod tempor incididunt simply dolore magna.</div>
+    							<div className="text">Have questions or need assistance? We’re here to help! Reach out to us for expert guidance on temple architecture, design, and construction. Let’s bring your vision to life with precision and devotion.</div>
     						</div>
     						<ul className="list-unstyled contact-details__info">
     							<li className="d-block d-sm-flex align-items-sm-center ">
@@ -74,7 +74,7 @@ function Contact() {
     								</div>
     								<div className="text ml-xs--0 mt-xs-10">
     									<h6>Have any question?</h6>
-    									<Link to="/tel:980089850"><span>Free</span> +92 (020)-9850</Link>
+    									<Link to="/tel:980089850"><span>Free</span> (+91) 98251 66726</Link>
     								</div>
     							</li>
     							<li className="d-block d-sm-flex align-items-sm-center ">
@@ -83,18 +83,20 @@ function Contact() {
     								</div>
     								<div className="text ml-xs--0 mt-xs-10">
     									<h6>Write email</h6>
-    									<Link to="/mailto:needhelp@company.com">needhelp@company.com</Link>
+    									<Link to="/mailto:needhelp@company.com">pankajsompura@pankajsompura.com</Link>
     								</div>
     							</li>
-    							<li className="d-block d-sm-flex align-items-sm-center ">
-    								<div className="icon">
-    									<span className="far fa-location-dot fa-fw"></span>
-    								</div>
-    								<div className="text ml-xs--0 mt-xs-10">
-    									<h6>Visit anytime</h6>
-    									<span>66 broklyn golden street. New York</span>
-    								</div>
-    							</li>
+    							<li className="d-flex align-items-start">
+									<div className="icon mr-3 flex-shrink-0">
+										<span className="far fa-location-dot fa-fw"></span>
+									</div>
+									<div className="text">
+										<h6>Visit anytime</h6>
+										<span className="d-block text-break">
+										203, 6/1 Takshashila Apartment, Thaltej, Ahmedabad, Gujarat 380059, India
+										</span>
+									</div>
+									</li>
     						</ul>
     					</div>
     				</div>

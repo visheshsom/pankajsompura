@@ -41,7 +41,7 @@ function TeamDetails() {
                                         <div className="team-details__top-content">
                                             <h3 className="team-details__top-name">Pankaj Sompura</h3>
                                             <p className="team-details__top-title">Director</p>
-                                            <p className="team-details__top-text-1">I help my clients stand out and they help me grow.</p>
+                                            <p className="team-details__top-text-1">Preserving ancient wisdom, shaping spiritual sanctuaries for generations.</p>
                                             <div className="team-details-contact mb-30">
                                                 <h5 className="mb-0">Email Address</h5>
                                                 <div className=""><span>pankajsompura@pankajsompura.com</span></div>
@@ -55,7 +55,7 @@ function TeamDetails() {
                                                 <div className=""><span>www.pankajsompura.com</span></div>
                                             </div>
                                             <div className="team-details__social">
-                                                <Link className="text-white" to="#"><i className="fab fa-twitter"></i></Link>
+                                                <Link className="text-white" to="#"><i className="fab fa-x-twitter"></i></Link>
                                                 <Link className="text-white" to="#"><i className="fab fa-facebook"></i></Link>
                                                 <Link className="text-white" to="#"><i className="fab fa-pinterest-p"></i></Link>
                                                 <Link className="text-white" to="#"><i className="fab fa-instagram"></i></Link>
@@ -70,14 +70,14 @@ function TeamDetails() {
                                 <div className="col-xl-6 col-lg-6">
                                     <div className="team-details__bottom-left">
                                         <h4 className="team-details__bottom-left-title">Personal Experience</h4>
-                                        <p className="team-details__bottom-left-text">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries architecto dolorem ipsum quia</p>
+                                        <p className="team-details__bottom-left-text">With 30+ years of experience in temple architecture, I have designed and built Jain and Hindu temples across India and internationally. My most notable work includes the grand Shri Sammet Shikhar pilgrimage temple in Madhuban, Jharkhand. Blending tradition with innovation, I strive to create timeless sacred spaces that embody spirituality and architectural excellence.</p>
                                     </div>
                                 </div>
                                 <div className="col-xl-6 col-lg-6">
                                     <div className="team-details__bottom-right">
                                         <div className="team-details__progress">
-                                            <ProgressBar2 title="Expertise & Experience" targetPercentage={80} />
-                                            <ProgressBar2 title="Innovative Solutions" targetPercentage={70} />
+                                            <ProgressBar2 title="Expertise & Experience" targetPercentage={90} />
+                                            <ProgressBar2 title="Innovative Solutions" targetPercentage={80} />
                                             <ProgressBar2 title="Cost Efficiency" targetPercentage={55} />
                                         </div>
                                     </div>
@@ -91,7 +91,7 @@ function TeamDetails() {
                 <div className="container pb-100 pt-100">
                     <div className="sec-title mb-50 text-center">
                         <span className="sub-title">Contact With Us Now</span>
-                        <h2 className="section-title__title">Feel Free to Write Our <br /> Pankaj Sompura</h2>
+                        <h2 className="section-title__title">Feel Free to Write <br /> Pankaj Sompura</h2>
                     </div>
                     <div className="row justify-content-center">
                         <div className="col-lg-8">

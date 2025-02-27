@@ -70,40 +70,40 @@ function ProjectHomeOne({ className }) {
                         <SwiperSlide className="swiper-slide">
                             <div className="project__item" data-bg={Projectimage1}>
                                 <div className="project__content">
-                                    <h6 className="wow splt-txt" data-splitting>Bedroom</h6>
-                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">The Fox House</Link></h4>
+                                    <h6 className="wow splt-txt" data-splitting>Temple Area</h6>
+                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">400 X 400 Sq.Ft</Link></h4>
                                 </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide">
                             <div className="project__item" data-bg={Projectimage2}>
                                 <div className="project__content">
-                                    <h6 className="wow splt-txt" data-splitting>Furniture</h6>
-                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">Minimalism</Link></h4>
+                                    <h6 className="wow splt-txt" data-splitting>White Marble</h6>
+                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">3,00,000 Cubic Feet</Link></h4>
                                 </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide">
                             <div className="project__item" data-bg={Projectimage3}>
                                 <div className="project__content">
-                                    <h6 className="wow splt-txt" data-splitting>Interior</h6>
-                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">House Lighting</Link></h4>
+                                    <h6 className="wow splt-txt" data-splitting>Lake</h6>
+                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">15,000 Square Feet</Link></h4>
                                 </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide">
                             <div className="project__item" data-bg={Projectimage4}>
                                 <div className="project__content">
-                                    <h6 className="wow splt-txt" data-splitting>Bedroom</h6>
-                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">The Fox House</Link></h4>
+                                    <h6 className="wow splt-txt" data-splitting>Uniqueness</h6>
+                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">25 Temples having no repetitive designs</Link></h4>
                                 </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide className="swiper-slide">
                             <div className="project__item" data-bg={Projectimage1}>
                                 <div className="project__content">
-                                    <h6 className="wow splt-txt" data-splitting>Bedroom</h6>
-                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">The Fox House</Link></h4>
+                                    <h6 className="wow splt-txt" data-splitting>Shape</h6>
+                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">Violin Shape</Link></h4>
                                 </div>
                             </div>
                         </SwiperSlide>
