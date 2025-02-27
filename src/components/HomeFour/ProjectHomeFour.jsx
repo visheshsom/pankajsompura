@@ -9,7 +9,7 @@ import Projectimage1 from '../../assets/images/bg/samet_temple.png';
 import Projectimageg1 from '../../assets/images/bg/sammed_main_mandir.png';
 import Projectimage2 from '../../assets/images/bg/06.jpg';
 import Projectimage3 from '../../assets/images/bg/c6.jpg';
-import Projectimage4 from '../../assets/images/bg/project-four-bg4.jpg';
+import Projectimage4 from '../../assets/images/bg/ms_bhuvan.png';
 import TempleDotAnimation from './TPA';
 
 
@@ -176,9 +176,9 @@ return (
                     <div className="section-header__flex mb-50">
                         <div>
                             <h4 className="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">Our Projects</h4>
-                            <h2 className="wow splt-txt" data-splitting>Check what we offer for <br /> your home</h2>
+                            <h2 className="wow splt-txt" data-splitting>Crafting Divine Spaces, <br /> Preserving Timeless Legacies</h2>
                         </div>
-                        <p className="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                        <p className="wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">We bring decades of expertise in temple architecture and restoration, creating spiritually enriching and architecturally stunning spaces that honor tradition while embracing innovation.</p>
                     </div>
                 </div>
             </div>
@@ -191,13 +191,13 @@ return (
                     }}
                 >
                     <TempleDotAnimation />
-  <div className="project__slider-arrys">
-    <button className="project__arry-prev"><i className="fa-regular fa-arrow-left"></i></button>
-    <button className="project__arry-next"><i className="fa-regular fa-arrow-right"></i></button>
-  </div>
-</div>
+                <div className="project__slider-arrys">
+                  <button className="project__arry-prev"><i className="fa-regular fa-arrow-left"></i></button>
+                  <button className="project__arry-next"><i className="fa-regular fa-arrow-right"></i></button>
+                </div>
+              </div>
 
-                <div className="swiper project__slider">
+                <div className="swiper project__slider"> 
                 <Swiper {...swiperOptions}
                 modules={[Navigation]}
                 navigation={{
@@ -253,11 +253,15 @@ return (
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
-                        <div className="project__item" style={{ backgroundImage: `url(${Projectimage4})`}}>
+                        <div className="project__item" style={{ backgroundImage: `url(${Projectimage4})`,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
+                      backgroundRepeat: 'no-repeat'
+                      }}>
                             <div className="project-four__content">
                                 <h2>04</h2>
                                 <div className="d-flex align-items-center justify-content-between">
-                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">Assembly <br /> Home</Link></h4>
+                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">Shri Maharashtra Bhuvan <br /> Mumbai</Link></h4>
                                     <Link to="/page-project-details" className="btn-arrow"><i className="fa-light fa-arrow-up-right"></i></Link>
                                 </div>
                             </div>

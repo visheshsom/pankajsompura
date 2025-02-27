@@ -10,8 +10,7 @@ return (
                 <div className="banner-inner__content">
                     <Link to="/">home</Link> <span> / Contact Us</span>
                     <h1>Contact Us</h1>
-                    <p>We specialize in restoring antique interior designs and developing high-quality solutions to
-                        address our clients' needs.</p>
+                    <p>We specialize in designing and restoring Jain and Hindu temples, blending traditional craftsmanship with modern techniques to create timeless sacred spaces that honor spiritual and architectural heritage.</p>
                 </div>
             </div>
         </section> 
