@@ -107,30 +107,7 @@ function ProjectHomeOne({ className }) {
                                 </div>
                             </div>
                         </SwiperSlide>
-                        <SwiperSlide className="swiper-slide">
-                            <div className="project__item" data-bg={Projectimage2}>
-                                <div className="project__content">
-                                    <h6 className="wow splt-txt" data-splitting>Furniture</h6>
-                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">Minimalism</Link></h4>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide className="swiper-slide">
-                            <div className="project__item" data-bg={Projectimage3}>
-                                <div className="project__content">
-                                    <h6 className="wow splt-txt" data-splitting>Interior</h6>
-                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">House Lighting</Link></h4>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide className="swiper-slide">
-                            <div className="project__item" data-bg={Projectimage4}>
-                                <div className="project__content">
-                                    <h6 className="wow splt-txt" data-splitting>Bedroom</h6>
-                                    <h4 className="wow splt-txt" data-splitting><Link to="/page-project-details">The Fox House</Link></h4>
-                                </div>
-                            </div>
-                        </SwiperSlide>
+                    
                     </Swiper>
                 </div>
             </div>

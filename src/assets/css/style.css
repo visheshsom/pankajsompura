@@ -6191,7 +6191,7 @@ body.dark-mode {
 }
 .marquee-two-area, .marquee-four-area {
   overflow: hidden;
-  background-color: var(--theme-color3);
+  background-color: var(--theme-color1);
 }
 .marquee-two__item, .marquee-four__item {
   padding: 0 30px;
