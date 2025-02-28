@@ -76,11 +76,8 @@ function Header({ className = '', scroll = false }) {
                     <li><i className="fa-solid fa-paper-plane"></i> <Link to="#0">design.pankajsompura@gmail.com</Link></li>
                 </ul>
             </div>
-            <div className="sidebar__btns my-4">
-                <Link to="/sign-up">Sign Up</Link>
-                <a className="sign-in" href="/sign-in">Sign In</a>
-            </div>
-            <div className="sidebar__socials">
+         
+            <div className="sidebar__socials mt-40">
                 <ul>
                     <li>
                         <Link to="#0">

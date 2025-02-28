@@ -7351,7 +7351,7 @@ body.dark-mode {
 }
 .footer-three__shape-right {
   position: absolute;
-  bottom: 15px;
+  bottom: 0px;
   right: 0;
   z-index: -1;
 }
@@ -12782,3 +12782,32 @@ textarea.form-control {
   }
 }
 
+.services-details__content p {
+  margin-bottom: 1.5rem;
+}
+
+.services-details__content .shilpa-list {
+  padding-left: 1.5rem;
+  list-style-type: decimal;  /* For numbering */
+}
+
+.services-details__content .shilpa-list li {
+  margin-bottom: 0.5rem;  /* Adds space between list items */
+}
+
+/* Add space after the last list item */
+.services-details__content .shilpa-list li:last-child {
+  margin-bottom: 1.5rem;
+}
+
+/* Add these styles to your CSS file */
+
+/* Target the specific paragraph before the blockquote */
+.content .text p {
+  margin-bottom: 0;  /* Remove bottom margin */
+}
+
+/* Remove top margin from the blockquote */
+.content .text .blockquote-one {
+  margin-top: 0;
+}

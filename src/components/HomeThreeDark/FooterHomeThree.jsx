@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import FooterLogo from '../../assets/images/logo/300.png';
 import FooterShape1 from '../../assets/images/shape/footer-three-shape-left.png';
-import FooterShape2 from '../../assets/images/shape/footer-three-shape-right.png';
+import FooterShape2 from '../../assets/images/shape/funfact-four-shape-dark.png';
 
 function FooterHomeThree({ className }) {
     return (

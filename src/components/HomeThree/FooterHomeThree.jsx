@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import FooterLogo from '../../assets/images/logo/300.png';
 import FooterShape1 from '../../assets/images/shape/footer-three-shape-left.png';
-import FooterShape2 from '../../assets/images/shape/footer-three-shape-right.png';
+import FooterShape2 from '../../assets/images/shape/funfact-four-shape-dark.png';
 
 function FooterHomeThree({ className }) {
     return (
@@ -26,11 +26,11 @@ function FooterHomeThree({ className }) {
                                 <div className="footer-three__item">
                                     <h4 className="title">Service</h4>
                                     <ul>
-                                        <li><Link to="#0">UI Design</Link></li>
-                                        <li><Link to="#0">Web Design</Link></li>
-                                        <li><Link to="#0">Branding</Link></li>
-                                        <li><Link to="#0">WebFlow</Link></li>
-                                        <li><Link to="#0">Development</Link></li>
+                                        <li><Link to="#0">Temple Design</Link></li>
+                                        <li><Link to="#0">Inlay Work</Link></li>
+                                        <li><Link to="#0">Consultancy</Link></li>
+                                        <li><Link to="#0">3D Modelling</Link></li>
+                                        <li><Link to="#0">Supervision</Link></li>
                                     </ul>
                                 </div>
                                 <div className="footer-three__item">
@@ -56,26 +56,19 @@ function FooterHomeThree({ className }) {
 
                             <div className="footer-three__item-wrp mt-80">
                                 <div className="footer-three__item">
-                                    <h4 className="title">New York</h4>
+                                    <h4 className="title">Ahmedabad</h4>
                                     <ul>
-                                        <li><Link to="#0">2464 Royal Ln. Mesa, New Jersey 45463</Link></li>
-                                        <li><Link to="#0">(000) 222-0000
-                                                info@yourwebsite.com</Link></li>
+                                        <li><Link to="#0">203, 6/1 Takshashila Apartment, Thaltej, Ahmedabad, Gujarat 380059, India</Link></li>
+                                        <li><Link to="#0">(+91) 98251 66726
+                                                info@pankajsompura.com</Link></li>
                                     </ul>
                                 </div>
-                                <div className="footer-three__item">
-                                    <h4 className="title">London</h4>
-                                    <ul>
-                                        <li><Link to="#0">1901 Thornridge Cir. Shiloh, Hawaii 81063</Link></li>
-                                        <li><Link to="#0">(229) 555-0109
-                                                info@yourwebsite.com</Link></li>
-                                    </ul>
-                                </div>
+                                
                                 <div className="footer-three__item-last">
                                     <h4 className="title">Follow Us</h4>
                                     <div className="socials">
                                         <Link to="#"><i className="fa-brands fa-facebook-f"></i></Link>
-                                        <Link to="#"><i className="fa-brands fa-twitter"></i></Link>
+                                        <Link to="#"><i className="fa-brands fa-x-twitter"></i></Link>
                                         <Link to="#"><i className="fa-brands fa-instagram"></i></Link>
                                         <Link to="#"><i className="fa-brands fa-linkedin-in"></i></Link>
                                     </div>

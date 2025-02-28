@@ -25,16 +25,16 @@ function FooterHomeOne({ className }) {
                             <div className="footer__item">
                                 <h4 className="title">Service</h4>
                                 <ul>
-                                    <li><Link to="#0">About Us</Link></li>
-                                    <li><Link to="#0">Our Team</Link></li>
-                                    <li><Link to="#0">Pricing Plans</Link></li>
-                                    <li><Link to="#0">Get In Touch</Link></li>
+                                    <li><Link to="#0">Temple Design</Link></li>
+                                    <li><Link to="#0">Inlay Work</Link></li>
+                                    <li><Link to="#0">Consultancy</Link></li>
+                                    <li><Link to="#0">3D Modelling</Link></li>
+                                    <li><Link to="#0">Supervision</Link></li>
                                 </ul>
                             </div>
                             <div className="footer__item">
                                 <h4 className="title">Useful links</h4>
                                 <ul>
-                                    <li><Link to="#0">Privacy & Terms</Link></li>
                                     <li><Link to="#0">FAQ Page</Link></li>
                                     <li><Link to="#0">Help Center</Link></li>
                                     <li><Link to="#0">Contact Us</Link></li>
@@ -52,10 +52,10 @@ function FooterHomeOne({ className }) {
                         </div>
                     </div>
                     <div className="footer__wrp-bottom pt-60 pb-60">
-                        <p>Lorem ipsum dolor sit amet, cosectetur adip Duis convallis sit amet purus ac dapibus.</p>
+                        <p>Let's bring your divine vision to life—crafted with passion, built to inspire</p>
                         <ul>
-                            <li><Link to="#0">need@company.com</Link></li>
-                            <li><Link to="#0">0000 - 222 - 333</Link></li>
+                            <li><Link to="#0">pankajsompura@pankajsompura.com</Link></li>
+                            <li><Link to="#0">(+91) 98251 66726</Link></li>
                         </ul>
                     </div>
                 </div>

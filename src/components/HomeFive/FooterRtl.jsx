@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import FooterLogo from '../../assets/images/logo/300.png';
 import FooterShape1 from '../../assets/images/shape/footer-three-shape-left.png';
-import FooterShape2 from '../../assets/images/shape/footer-three-shape-right.png';
+import FooterShape2 from '../../assets/images/shape/funfact-four-shape-dark.png';
 
 function FooterHomeFive({ className }) {
     return (
@@ -58,7 +58,7 @@ function FooterHomeFive({ className }) {
                                 <div className="footer-three__item">
                                     <h4 className="title">New York</h4>
                                     <ul>
-                                        <li><Link to="#0">2464 Royal Ln. Mesa, New Jersey 45463</Link></li>
+                                        <li><Link to="#0">2464 Royal Ln. Mesaaaaa, New Jersey 45463</Link></li>
                                         <li><Link to="#0">(000) 222-0000
                                                 info@yourwebsite.com</Link></li>
                                     </ul>

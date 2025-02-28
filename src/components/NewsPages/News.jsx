@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import NewsImage1 from '../../assets/images/blog/blog-image1.jpg';
-import NewsImage2 from '../../assets/images/blog/blog-image2.jpg'; 
-import NewsImage3 from '../../assets/images/blog/blog-image3.jpg'; 
+import NewsImage1 from '../../assets/images/blog/bli1.jpg';
+import NewsImage2 from '../../assets/images/blog/bli2.jpg'; 
+import NewsImage3 from '../../assets/images/blog/bli3.jpg'; 
 function News() {
     return (
         <>

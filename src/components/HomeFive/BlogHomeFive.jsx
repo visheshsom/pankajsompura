@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import smallLogo from '../../assets/images/logo/45.png';
-import BlogImage1 from '../../assets/images/blog/blog-image1.jpg';
-import BlogImage2 from '../../assets/images/blog/blog-image2.jpg';
-import BlogImage3 from '../../assets/images/blog/blog-image3.jpg';
+import BlogImage1 from '../../assets/images/blog/bli1.jpg';
+import BlogImage2 from '../../assets/images/blog/bli2.jpg';
+import BlogImage3 from '../../assets/images/blog/bli3.jpg';
 
 
 
@@ -27,10 +27,10 @@ function BlogHomeFive({ className }) {
                                 </Link>
                                 <div className="blog__content">
                                     <ul>
-                                        <li><strong>FURNITURE</strong></li>
-                                        <li><span>May 25, 2024</span></li>
+                                        <li><strong>Modern Temple Architecture</strong></li>
+                                        <li><span>April 15, 2008</span></li>
                                     </ul>
-                                    <h4 className="mt-10"><Link to="/news-details">Detailed Accents on Custom of Built Office Design</Link></h4>
+                                    <h4 className="mt-10"><Link to="/news-details">The Divine Grandeur of "Shri Sammet Shikhar": A Testament to Timeless Craftsmanship</Link></h4>
                                 </div>
                             </div>
                         </div>
@@ -41,10 +41,10 @@ function BlogHomeFive({ className }) {
                                 </Link>
                                 <div className="blog__content">
                                     <ul>
-                                        <li><strong>WOOD CUTTING</strong></li>
-                                        <li><span>May 28, 2024</span></li>
+                                        <li><strong>Innovative Design</strong></li>
+                                        <li><span>June 12, 2019</span></li>
                                     </ul>
-                                    <h4 className="mt-10"><Link to="/news-details">We specialize in restoring antique Interior design</Link></h4>
+                                    <h4 className="mt-10"><Link to="/news-details">Sacred Stones Speak: The Story Behind "Shri Namiun Parshwanath Jain Mandir"</Link></h4>
                                 </div>
                             </div>
                         </div>
@@ -55,10 +55,10 @@ function BlogHomeFive({ className }) {
                                 </Link>
                                 <div className="blog__content">
                                     <ul>
-                                        <li><strong>CRAFTING</strong></li>
-                                        <li><span>May 31, 2024</span></li>
+                                        <li><strong>Intricacy</strong></li>
+                                        <li><span>Feb 16, 2014</span></li>
                                     </ul>
-                                    <h4 className="mt-10"><Link to="/news-details">We creating in the Unique of interior showcasing</Link></h4>
+                                    <h4 className="mt-10"><Link to="/news-details">Art Meets Spirituality: The Masterful Stonework of "Shri Maharashtra Bhuvan"</Link></h4>
                                 </div>
                             </div>
                         </div>
