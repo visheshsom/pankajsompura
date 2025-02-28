@@ -254,7 +254,8 @@ function NewsDetails() {
                                         </ul>
                                         <h3 className="blog-details__title">Preserving Sacred Geometry: The Sompura Shilpakala Tradition</h3>
                                         <p className="blog-details__text-2">For over five centuries, the Sompura community has safeguarded the ancient principles of Shilp Shastra in temple architecture. Our latest project at the Ranakpur Jain Temple complex demonstrates the enduring relevance of Vedic mathematics in stone:</p>
-                                        <p className="blog-details__text-2">• Precision alignment of 1444 marble pillars using Mandala Vinyasa<br/>
+                                        <p className="blog-details__text-2">
+                                        • Precision alignment of 1444 marble pillars using Mandala Vinyasa<br/>
                                         • Application of Ayadi calculations for cosmic energy flow<br/>
                                         • Restoration of Chaumukha Adhisthana following 12th-century Agama texts</p>
                                         <p className="blog-details__text-2">The recent discovery of 15th-century Shilpa Prakarana manuscripts has revolutionized our understanding of Tirthankara murti proportions. These texts validate our community's oral traditions regarding Iconometry (Pratimā Lakshana) and stone selection rituals (Shilpa Sankalpa).</p>
