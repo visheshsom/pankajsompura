@@ -32,14 +32,14 @@ const MobileMenu = () => {
                     Pages <i className={`fa-solid ${activeMenu === "pages" ? "fa-angle-up" : "fa-angle-down"}`}></i>
                 </a>
                 <ul className={`sub-menu ${activeMenu === "pages" ? "d-block" : "d-none"}`}>
-                    <li><Link to="/contact">Contact V1</Link></li>
+                    <li><Link to="/contact-v1">Contact V1</Link></li>
+                    <li><Link to="/page-gallery">Gallery</Link></li>
                     <li><Link to="/page-projects">Project Grid</Link></li>
                     <li><Link to="/page-project-details">Project Details</Link></li>
                     <li><Link to="/page-team">Team</Link></li>
                     <li><Link to="/page-team-details">Team Details</Link></li>
                     <li><Link to="/page-testimonial">Testimonials</Link></li>
                     <li><Link to="/page-faq">FAQ’s</Link></li>
-                    
                 </ul>
             </li>
             <li>
